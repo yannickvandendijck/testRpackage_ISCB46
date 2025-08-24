@@ -14,5 +14,5 @@
 #' @examples
 #' my_sum(1, 2)
 my_sum <- function(x, y) {
-  x + y
+  x + y +2 
 }
