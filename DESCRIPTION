@@ -1,0 +1,21 @@
+Package: testpackageYV
+Type: Package
+Title: This package is pretty useless at this moment!
+Version: 0.1.0
+Language: en-US
+Authors@R: c(
+    person(given = "Yannick", family = "Vandendijck", email = "yvanden2@its.jnj.com", role = c("aut", "cre"))
+  )
+Description: This package is pretty useless at this moment!.
+    It contains a dummy dataset.
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  checkmate
+Suggests:
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+Config/testthat/edition: 3
